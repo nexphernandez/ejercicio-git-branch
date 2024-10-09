@@ -127,3 +127,21 @@ remote:
 To https://github.com/nexphernandez/ejercicio-git-branch
  * [new branch]      ejercicio2-branch -> ejercicio2-branch
 ```
+## Fusiono la rama main:
+
+```Code
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git checkout
+ main
+Cambiado a rama 'main'
+Tu rama está adelantada a 'origin/main' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git merge ej
+ercicio2-branch
+Actualizando 66f3f58..13114af
+Fast-forward
+ Ejercicio2.java |  5 ++++
+ README.md       | 70 ++++++++++++++++++++++++++++++++++++++++++++++++--
+ 2 files changed, 73 insertions(+), 2 deletions(-)
+ create mode 100644 Ejercicio2.java
+ ```
+ 
