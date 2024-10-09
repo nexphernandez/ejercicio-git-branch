@@ -207,3 +207,19 @@ remote:
 To https://github.com/nexphernandez/ejercicio-git-branch
  * [new branch]      ejercicio3-branch -> ejercicio3-branch
 ```
+## Fusiono la rama main:
+ 
+```code
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git checkout
+ main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git merge ej
+ercicio3-branch
+Actualizando 089ef45..1743ff7
+Fast-forward
+ Ejercicio3 |  5 +++++
+ README.md  | 66 +++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 2 files changed, 69 insertions(+), 2 deletions(-)
+ create mode 100644 Ejercicio3
+ ```
