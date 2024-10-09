@@ -115,8 +115,21 @@ pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git push ori
 gin ejercicio2-branch
 Enumerando objetos: 9, listo.
 Contando objetos: 100% (9/9), listo.
+Compresión delta usando hasta 4 hipro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git push ori
+gin ejercicio3-branch
+Enumerando objetos: 6, listo.
+Contando objetos: 100% (6/6), listo.
 Compresión delta usando hasta 4 hilos
-Comprimiendo objetos: 100% (7/7), listo.
+Comprimiendo objetos: 100% (4/4), listo.
+Escribiendo objetos: 100% (4/4), 579 bytes | 579.00 KiB/s, listo.
+Total 4 (delta 1), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ejercicio3-branch' on GitHub by visiting:
+remote:      https://github.com/nexphernandez/ejercicio-git-branch/pull/new/ejercicio3-branch
+remote: 
+To https://github.com/nexphernandez/ejercicio-git-branch
+ * [new branch]      ejercicio3-branch -> ejercicio3-branch, listo.
 Escribiendo objetos: 100% (7/7), 1.68 KiB | 1.68 MiB/s, listo.
 Total 7 (delta 1), reusados 0 (delta 0), pack-reusados 0
 remote: Resolving deltas: 100% (1/1), done.
@@ -167,5 +180,30 @@ public class Ejercicio2 {
 ## Realizo el commit:
 
 ```code
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git add .
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git commit -
+m "subo el ejercicio3"
+[ejercicio3-branch 4aff737] subo el ejercicio3
+ 2 files changed, 30 insertions(+), 1 deletion(-)
+ create mode 100644 Ejercicio3
+```
 
+## Subo los cambios a mi repositorio:
+
+```code
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git push ori
+gin ejercicio3-branch
+Enumerando objetos: 6, listo.
+Contando objetos: 100% (6/6), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (4/4), listo.
+Escribiendo objetos: 100% (4/4), 579 bytes | 579.00 KiB/s, listo.
+Total 4 (delta 1), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ejercicio3-branch' on GitHub by visiting:
+remote:      https://github.com/nexphernandez/ejercicio-git-branch/pull/new/ejercicio3-branch
+remote: 
+To https://github.com/nexphernandez/ejercicio-git-branch
+ * [new branch]      ejercicio3-branch -> ejercicio3-branch
 ```
