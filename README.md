@@ -145,3 +145,27 @@ Fast-forward
  create mode 100644 Ejercicio2.java
  ```
  
+ ## Creo una nueva rama:
+
+```Code
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git branch e
+jercicio3-branch
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git checkout ejercicio3-branch
+M       README.md
+Cambiado a rama 'ejercicio3-branch'
+```
+## Añado la clase Ejercicio2:
+
+```Code
+public class Ejercicio2 {
+    public static void main(String[] args) {
+        System.out.println("Ejercicio 3 realizado.");
+    }
+}    
+```
+
+## Realizo el commit:
+
+```code
+
+```
