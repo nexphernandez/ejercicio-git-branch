@@ -28,7 +28,7 @@ Cambiado a nueva rama 'ejercicio1-branch'
  }    
  ```
 
- ## Realizo el commit:
+## Realizo el commit:
 
  ```Code
  pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git add .
@@ -40,7 +40,7 @@ m "Se incluye el Ejercici1.java"
  rewrite README.md (100%)
  ```
 
- ## Subo los cambios a mi repositorio:
+## Subo los cambios a mi repositorio:
 
  ```Code
 pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git push origin ejercicio1-branch
@@ -92,8 +92,38 @@ Cambiado a rama 'ejercicio2-branch'
 ```java
 public class Ejercicio1 {
     public static void main(String[] args) {
-        System.out.println("Ejercicio 1 realizado.");
+        System.out.println("Ejercicio 2 realizado.");
     }
 }    
 ```
 
+## Realizo el commit:
+
+```Code
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git add .
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git commit -
+m "Se incliye el Ejercicio2.java"
+[ejercicio2-branch b6ccd2b] Se incliye el Ejercicio2.java
+ 2 files changed, 41 insertions(+)
+ create mode 100644 Ejercicio2.java
+```
+
+## Subo los cambios a mi repositorio:
+
+```CODE
+pro@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git push ori
+gin ejercicio2-branch
+Enumerando objetos: 9, listo.
+Contando objetos: 100% (9/9), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (7/7), listo.
+Escribiendo objetos: 100% (7/7), 1.68 KiB | 1.68 MiB/s, listo.
+Total 7 (delta 1), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'ejercicio2-branch' on GitHub by visiting:
+remote:      https://github.com/nexphernandez/ejercicio-git-branch/pull/new/ejercicio2-branch
+remote: 
+To https://github.com/nexphernandez/ejercicio-git-branch
+ * [new branch]      ejercicio2-branch -> ejercicio2-branch
+```
